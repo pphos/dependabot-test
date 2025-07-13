@@ -1,1 +1,1 @@
-FROM codiumai/pr-agent:0.29
+FROM codiumai/pr-agent:0.30
