@@ -1,0 +1,1 @@
+FROM codiumai/pr-agent:0.29-github_action@sha256:bb70e388332d282794fe2e06745c338505108ff429a19f777ecb6931c28b0602
