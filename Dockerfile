@@ -1,1 +1,1 @@
-FROM codiumai/pr-agent:0.29-github_action
+FROM codiumai/pr-agent:0.29
