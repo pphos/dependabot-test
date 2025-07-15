@@ -24,7 +24,7 @@ jobs:
         
       - name: PR Agent action step
         id: pragent
-        uses: docker://codiumai/pr-agent:0.29-github_action
+        uses: docker://codiumai/pr-agent:0.29-github_action # v0.29
 
       - name: PR Agent action step 2
         id: pragent2
