@@ -21,11 +21,16 @@ jobs:
       - name: PR Agent action step 0
         id: pragent0
         uses: qodo-ai/pr-agent@v0.29
+
         
       - name: PR Agent action step
-        id: pragent
+        id: pragent1
         uses: docker://codiumai/pr-agent:0.29-github_action # v0.29
 
-      - name: PR Agent action step 2
+      - name: PR Agent action step
         id: pragent2
+        uses: docker://codiumai/pr-agent:0.29
+
+      - name: PR Agent action step 2
+        id: pragent3
         uses: docker://codiumai/pr-agent@sha256:bb70e388332d282794fe2e06745c338505108ff429a19f777ecb6931c28b0602 # v0.29
