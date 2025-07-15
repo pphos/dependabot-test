@@ -17,4 +17,5 @@ updates:
     schedule:
       interval: "weekly"
     allow:
-      - dependency-type: "all"
+      - dependency-name: "codiumai/pr-agent"
+        update-types: ["version-update:semver-minor", "version-update:semver-patch"]
