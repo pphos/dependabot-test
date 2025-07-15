@@ -20,7 +20,7 @@ jobs:
     steps:
       - name: PR Agent action step 0
         id: pragent0
-        uses: qodo-ai/pr-agent@v0.29
+        uses: qodo-ai/pr-agent@v0.30
 
         
       - name: PR Agent action step
